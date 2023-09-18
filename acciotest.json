@@ -1,0 +1,4 @@
+{
+    "testRepo": "form-login-solution",
+    "pathToFile": "cypress/integration/tests/test.spec.js"
+}
