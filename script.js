@@ -5,14 +5,10 @@ function getFormvalue() {
 	 var firstName = form.elements["fname"].value;
     var lastName = form.elements["lname"].value;
 
-	  if (firstName && lastName) {
 
-	  alert("First Name: " + firstName + "\nLast Name: " + lastName);
-    } else {
+	  alert( firstName + lastName);
+    
 
-	alert("Please fill in both First Name and Last Name fields.");
-    }
-
-	 return false;
+	
 
 }
